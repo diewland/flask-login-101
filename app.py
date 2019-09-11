@@ -13,7 +13,6 @@ def hash_text(text):
 
 # Our mock database.
 users = {'admin@admin.com': {'password': hash_text('admin')}}
-print(users)
 
 class User(flask_login.UserMixin):
     pass
